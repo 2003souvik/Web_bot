@@ -120,3 +120,46 @@ li
         position: absolute;
     }
 }
+.hero
+{
+    margin-top: 40px;
+    background-image: url(./images/heropageimage.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 100px 0px 0px 30px;
+    
+}
+.hero h1
+{
+    font-size:100px;
+    color: aliceblue;
+   
+}
+.hero p
+{
+    font-size: x-large;
+    color: rgb(200, 224, 92);
+    margin-top: 20px;
+}
+.hb
+{
+    margin-top: 50px;
+   padding: 8px;
+   background:none;
+   color:beige;
+   background-color: rgb(78, 17, 17);
+   border-radius:10px;
+   font-weight: bolder;
+}
+.hb:hover
+{
+    background-color: rgb(226, 148, 46);
+    color: rgb(11, 5, 17);
+
+}
