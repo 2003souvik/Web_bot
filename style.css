@@ -10,7 +10,7 @@
 }
 body
 {
-    background-color: beige;
+    background-color: rgb(14, 14, 13);
 }
 
 
@@ -115,6 +115,7 @@ li
     .dropdown
     {
         display: block;
+        background-color: aliceblue;
     }
     .navbar{
         position: absolute;
@@ -124,7 +125,7 @@ li
 {
     margin-top: 40px;
     background-image: url(./images/heropageimage.jpg);
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -137,6 +138,7 @@ li
 }
 .hero h1
 {
+    font-style: italic;
     font-size:100px;
     color: aliceblue;
    
@@ -162,4 +164,47 @@ li
     background-color: rgb(226, 148, 46);
     color: rgb(11, 5, 17);
 
+}
+.games 
+{
+   margin:20px 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.games h1
+{
+    font-size:50px;
+    color: aliceblue;
+}
+.games p
+{
+    color: wheat;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.fs img
+{
+    height: 50px;
+    width: auto;
+    box-shadow: 2px 2px 2px 2px rgb(194, 214, 231);
+   
+}
+.des p
+{
+    color: aliceblue;
+}
+.star
+{
+    color: gold;
+}
+.gamestore
+{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
 }
