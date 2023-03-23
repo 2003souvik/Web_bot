@@ -12,7 +12,10 @@ body
 {
     background-color: rgb(14, 14, 13);
 }
-
+html
+{
+    scroll-behavior: smooth;
+}
 
 a
 {
@@ -252,3 +255,16 @@ li
     color: aliceblue;
     margin:10px 5px;
 }
+.copyright
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pa
+{
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+
