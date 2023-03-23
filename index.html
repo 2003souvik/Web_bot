@@ -5,8 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alpha Gaming Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    
+    <header>
+        <div class="navbar">
+          <div class="logo"><a href=""></a></div>
+           <ul class="item">
+              <li class="items"><a href="">Home</a></li>
+              <li class="items"><a href="">Store</a></li>
+              <li class="items"><a href="">About</a></li>
+              <li class="items"><a href="">Contact us</a></li>
+      
+           </ul>
+           <div class="bar">
+              <i class="fa-solid fa-bars"></i>
+           </div>
+        </div>
+        <div class="dropdown">
+          <li class="dropitems"><a href="">Home</a></li>
+              <li class="dropitems"><a href="">Store</a></li>
+              <li class="dropitems"><a href="">About</a></li>
+              <li class="dropitems"><a href="">Contact us</a></li>
+              
+        </div>
+        
+      </header>
+      <script>
+          const toggle=document.querySelector('.bar')
+          const dropdown=document.querySelector('.dropdown')
+          toggle.onclick=function()
+          {
+              dropdown.classList.toggle('open')
+          }
+      </script>
 </body>
 </html>
