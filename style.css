@@ -124,7 +124,7 @@ li
 .hero
 {
     margin-top: 40px;
-    background-image: url(./images/heropageimage.jpg);
+    background-image: url(./images/cyberpunk.jpg);
     height: 90vh;
     width: 100%;
     background-position: center;
@@ -140,7 +140,7 @@ li
 {
     font-style: italic;
     font-size:100px;
-    color: aliceblue;
+    color: rgb(25, 175, 138);
    
 }
 .hero p
@@ -151,7 +151,7 @@ li
 }
 .hb
 {
-    margin-top: 50px;
+    margin-top: 100px;
    padding: 8px;
    background:none;
    color:beige;
@@ -167,7 +167,7 @@ li
 }
 .games 
 {
-   margin:20px 20px;
+   margin:50px 20px;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -207,4 +207,8 @@ li
     justify-content: space-between;
     align-items: center;
     
+}
+.acessories
+{
+    margin-top: 50px;
 }
