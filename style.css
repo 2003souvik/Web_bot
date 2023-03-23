@@ -221,6 +221,7 @@ li
 }
 .about h1
 {
+    color: gold;
     font-size: x-large;
 }
 .about
@@ -252,7 +253,7 @@ li
 }
 .cp h2
 {
-    color: aliceblue;
+    color: gold;
     margin:10px 5px;
 }
 .copyright
@@ -270,5 +271,10 @@ li
 .vdo
 {
     margin-left: 40px;
+}
+.trail
+{
+    color: gold;
+    margin-left: 50px;
 }
 
