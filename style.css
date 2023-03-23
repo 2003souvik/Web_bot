@@ -212,3 +212,43 @@ li
 {
     margin-top: 50px;
 }
+.about h1,p
+{
+   color: antiquewhite;
+}
+.about h1
+{
+    font-size: x-large;
+}
+.about
+{
+    margin-top: 100px;
+}
+.cyber
+{
+    margin-top: 80px;
+}
+.about
+{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+   align-items: center;
+}
+.abtcyber
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cp
+{
+    height: 500px;
+    width: 500px;
+    padding-top: 70px;
+}
+.cp h2
+{
+    color: aliceblue;
+    margin:10px 5px;
+}
